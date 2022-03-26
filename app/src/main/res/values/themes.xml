@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SilentMoon" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Span_link" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">.05</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/silver</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+    <style name="Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="cornerRadius">38dp</item>
+        <item name="backgroundTint">@color/my_purple</item>
+        <item name="android:textColor">@color/button_color_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_cyr_medium</item>
+    </style>
+
+    <style name="Button_facebook" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="cornerRadius">38dp</item>
+        <item name="backgroundTint">@color/my_purple_f</item>
+        <item name="android:textColor">@color/button_color_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_cyr_medium</item>
+        <item name="android:letterSpacing">.05</item>
+        <item name="android:text">"CONTINUE WITH FACEBOOK"</item>
+    </style>
+
+    <style name="Button_google" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="cornerRadius">38dp</item>
+        <item name="android:textColor">@color/my_black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/helvetica_neue_cyr_medium</item>
+        <item name="android:letterSpacing">.05</item>
+        <item name="android:text">"CONTINUE WITH GOOGLE"</item>
+        <item name="android:backgroundTint">@color/my_transparent</item>
+    </style>
+
+    <style name="text_28px_bold" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/my_black</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="text_14px_regular" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:letterSpacing">.05</item>
+        <item name="android:textColor">@color/silver</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+    </style>
+
+
+    <style name="input" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingTop">22dp</item>
+        <item name="android:paddingBottom">22dp</item>
+        <item name="android:hint">16sp</item>
+        <item name="android:letterSpacing">.05</item>
+        <item name="android:textColor">@color/silver</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="fontFamily">@font/helvetica_neue_cyr_light</item>
+
+    </style>
+
+
+</resources>
