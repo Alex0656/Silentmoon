@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_welcome"
+    tools:context=".signing.WelcomeActivity">
+
+    <ImageView
+
+        android:id="@+id/ellipse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_welcome_back"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/silentMoonWhite"
+        style="@style/MoonStyle"
+        android:text="@string/SilentMoon"
+        android:textColor="@color/color_text_moon"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcomeSM"
+        android:text="@string/welcomeSM"
+        android:textColor="@color/welcomeSM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.37"
+        android:letterSpacing="0.01"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="50dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/silentMoonWhite" />
+
+    <TextView
+        android:id="@+id/explore_the_app"
+        android:text="@string/explore_the_app"
+        style="@style/roboto_reg_16_explore"
+
+        android:layout_marginBottom="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeSM"
+        app:layout_constraintBottom_toTopOf="@+id/girl_2"/>
+
+
+    <ImageView
+        android:id="@+id/girl_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="109dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/img_girl2"
+        app:layout_constraintBottom_toTopOf="@+id/get_started_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/get_started_2"
+        style="@style/welcome_Button"
+        android:layout_marginHorizontal="23dp"
+        android:layout_marginBottom="32dp"
+
+        android:onClick="onClickGoChooseTopic"
+        android:text="@string/get_started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

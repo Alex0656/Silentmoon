@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">Silent moon</string>
     <string name="SilentMoon">Silent Moon</string>
+    <string name="Dune"> In the week before their departure to Arrakis, when all the final scurrying about had reached a nearly unbearable frenzy, an old crone came to visit the mother of the boy, Paul.
+   It was a warm night at Castle Caladan, and the ancient pile of stone that had served the Atreides family as home for twenty-six generations bore that cooled-sweat feeling it acquired before a change in the weather.</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_in">ALREADY HAVE AN ACCOUNT? LOG IN</string>
+    <string name="using_silent_moon">Thousand of people are using silent moon for smalls meditation</string>
+    <string name="what_we_do">We are what we do</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="sign_up_email">OR SIGN UP WITH EMAIL</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="policy">I HAVE READ THE PRIVACE POLICY</string>
+    <string name="log_inn">LOG IN</string>
+    <string name="log_in_email">OR LOG IN WITH EMAIL</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="already_up">ALREADY HAVE AN ACCOUNT? SIGN UP</string>
+    <string name="welcomeSM">Hi Afsar, Welcome to Silent Moon</string>
+    <string name="explore_the_app">Explore the app, Find some peace of mind to prepare for meditation.</string>
+    <string name="get_started">GET STARTED</string>
+
 </resources>

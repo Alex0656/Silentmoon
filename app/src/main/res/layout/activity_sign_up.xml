@@ -1,23 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".signing.SignUpActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/silentMoon"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/airbnb_cereal_bold"
-        android:letterSpacing=".24"
-        android:text="Create your account "
-        android:textColor="@color/my_black"
-        android:textSize="16sp"
+        tools:context=".signing.SignUpActivity">
 
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/back_lines"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_signup_back"
+            android:scaleType="centerCrop"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/account"
+            android:text="@string/welcome_back"
+            style="@style/text_28sp_bold"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="24dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/facebook"
+            style="@style/Button_facebook"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+
+            app:icon="@drawable/ic_facebook"
+            app:iconGravity="textStart"
+            app:layout_constraintTop_toBottomOf="@+id/account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/google"
+            style="@style/Button_google"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="24dp"
+
+            app:icon="@drawable/ic_google"
+            app:iconGravity="textStart"
+            app:layout_constraintTop_toBottomOf="@+id/facebook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:text="@string/sign_up_email"
+            style="@style/text_14px_regular"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="85dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/google"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/name"
+            style="@style/input"
+            android:inputType="text"
+            android:hint="@string/name"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/email_address"
+            style="@style/input"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_address"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/password"
+            style="@style/input"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/email_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/policy"
+            android:text="@string/policy"
+            style="@style/text_14px_regular"
+            android:gravity="start"
+            android:layout_marginTop="29dp"
+            android:layout_marginStart="32dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/password"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+
+            app:layout_constraintTop_toBottomOf="@id/password"
+            app:layout_constraintStart_toEndOf="@id/policy"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/get_started"
+            style="@style/Button"
+            android:layout_marginHorizontal="23dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="32dp"
+            android:onClick="onClickGoWelcome"
+            android:text="@string/get_started"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/policy" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

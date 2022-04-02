@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SilentMoon">
         <activity
+            android:name=".signing.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".signing.ChooseTopicActivity"
+            android:exported="false" />
+        <activity
             android:name=".signing.SignUpActivity"
             android:exported="false" />
         <activity

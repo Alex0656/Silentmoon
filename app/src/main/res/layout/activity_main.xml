@@ -7,105 +7,69 @@
     tools:context=".signing.MainActivity">
 
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/left_g"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="38dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/right_g"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_end="38dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/top_g"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="24dp" />
-
-
     <ImageView
         android:id="@+id/back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/frame_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:scaleType="fitStart"
+        android:src="@drawable/img_main_activity_back"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/silentMoon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/airbnb_cereal_bold"
-        android:letterSpacing=".24"
         android:text="@string/SilentMoon"
+        style="@style/MoonStyle"
         android:textColor="@color/my_black"
-        android:textSize="16sp"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/top_g" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/girl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="36dp"
         android:src="@drawable/img_girl"
         android:layout_marginHorizontal="38dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/silentMoon" />
 
     <TextView
         android:id="@+id/what"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:text="@string/what_we_do"
+        style="@style/text_30sp_bold"
         android:layout_marginTop="38dp"
-        android:fontFamily="@font/roboto_bold"
-        android:gravity="center"
-        android:text="We are what we do"
-
-        android:textColor="@color/my_black"
-        android:textSize="30sp"
         android:layout_marginHorizontal="45dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/girl" />
 
     <TextView
         android:id="@+id/people"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:text="@string/using_silent_moon"
+        style="@style/roboto_reg_16"
+        android:lineSpacingMultiplier="1.65"
         android:layout_marginTop="10dp"
-        android:fontFamily="@font/roboto_regular"
-        android:gravity="center"
-        android:lineSpacingMultiplier="1.45"
-        android:text="Thousand of people are using silent moon for smalls meditation "
-        android:textColor="@color/silver"
-        android:textSize="16sp"
-
         android:layout_marginHorizontal="45dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/what" />
 
     <TextView
         android:id="@+id/log"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:text="@string/already_in"
         style="@style/Span_link"
-        android:text="ALREADY HAVE AN ACCOUNT? LOG IN"
-
-        android:layout_marginBottom="32dp"
         android:layout_marginHorizontal="38dp"
+        android:layout_marginBottom="32dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -113,16 +77,12 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/SIGN_UP"
-        style="@style/Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-
-        android:layout_marginBottom="19dp"
+        android:text="@string/sign_up"
+        style="@style/little_Button"
         android:onClick="onClickGoSignUp"
-        android:text="SIGN UP"
+
         app:layout_constraintBottom_toTopOf="@+id/log"
-        app:layout_constraintEnd_toEndOf="@+id/right_g"
-        app:layout_constraintStart_toStartOf="@+id/left_g" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
