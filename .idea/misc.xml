@@ -6,6 +6,9 @@
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/bg_input_selector.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/bg_test_selector.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/chip_group.xml" value="0.238" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/chip_text_color.xml" value="0.121" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/datepicker_selector.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_f.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_facebook.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_google.xml" value="0.206" />
@@ -14,6 +17,9 @@
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_group_google.xml" value="0.2703125" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_img_girl_1.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_img_main_activity_back.xml" value="0.206" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_img_picture_1.xml" value="0.206" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_img_picture_5.xml" value="0.206" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_img_picture_6.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_img_signup_back.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_img_welcome_back.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
@@ -21,11 +27,14 @@
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_girl.xml" value="0.2205" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_group_6800.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout-v28/activity_sign_up.xml" value="0.11041666666666666" />
-        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_choose_topic.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_choose_topic.xml" value="0.264" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_reminders.xml" value="0.264" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_sign_up.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.206" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.206" />
       </map>
     </option>
   </component>

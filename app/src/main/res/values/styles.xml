@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Button" parent="TextAppearance.MaterialComponents.Button">
+    <style name="Button" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:paddingTop">24dp</item>
         <item name="android:paddingBottom">24dp</item>
         <item name="cornerRadius">38dp</item>
@@ -12,14 +12,14 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-    <style name="little_Button" parent="Button">
-        <item name="android:layout_marginHorizontal">29dp</item>
-        <item name="android:layout_marginBottom">19dp</item>
-    </style>
-
     <style name="welcome_Button" parent="Button">
         <item name="android:textColor">@color/my_black</item>
         <item name="backgroundTint">@color/explore_the_app</item>
+    </style>
+    <style name="Button.Ghost">
+        <item name="backgroundTint">#00000000</item>
+        <item name="android:textColor">@color/my_black</item>
+
     </style>
 
 
@@ -45,8 +45,6 @@
     </style>
     <style name="roboto_reg_16_explore" parent="roboto_reg_16">
         <item name="android:textColor">@color/explore_the_app</item>
-        <item name="android:layout_marginHorizontal">21dp</item>
-        <item name="android:layout_marginTop">24dp</item>
     </style>
 
 
@@ -66,7 +64,7 @@
     </style>
 
 
-    <style name="Button_facebook" parent="TextAppearance.MaterialComponents.Button">
+    <style name="Button_facebook" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:paddingTop">24dp</item>
         <item name="android:paddingBottom">24dp</item>
         <item name="cornerRadius">38dp</item>
@@ -80,7 +78,7 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="Button_google" parent="TextAppearance.MaterialComponents.Button">
+    <style name="Button_google" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:paddingTop">24dp</item>
         <item name="android:paddingBottom">24dp</item>
         <item name="cornerRadius">38dp</item>
@@ -128,6 +126,41 @@
         <item name="android:textSize">16sp</item>
         <item name="android:layout_marginTop">24dp</item>
     </style>
+
+    <style name="bold_24">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingMultiplier">1.35</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/my_black</item>
+    </style>
+
+    <style name="silver_16">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">start</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:lineSpacingMultiplier">1.65</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/silver</item>
+    </style>
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_color</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipStrokeColor">@color/silver</item>
+        <item name="chipCornerRadius">100dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+    <style name="CustomChipStyle_2" parent="CustomChipStyle">
+        <item name="textStartPadding">11dp</item>
+    </style>
+
 
 
 </resources>

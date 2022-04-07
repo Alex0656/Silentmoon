@@ -17,8 +17,7 @@
     <color name="back_welcome">#8E97FD</color>
     <color name="color_text_moon">#D7D9FF</color>
     <color name="welcomeSM">#FFECCC</color>
-    <color name="explore_the_app">#EBEAEC</color>\
-
-
+    <color name="explore_the_app">#EBEAEC</color>
+    <color name="silver_light">#F5F5F9</color>
 
 </resources>

@@ -7,6 +7,7 @@
     android:background="@color/back_welcome"
     tools:context=".signing.WelcomeActivity">
 
+
     <ImageView
 
         android:id="@+id/ellipse"
@@ -18,7 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
-
     <TextView
         android:id="@+id/silentMoonWhite"
         style="@style/MoonStyle"
@@ -43,7 +43,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginHorizontal="50dp"
 
-
+app:layout_constraintBottom_toTopOf="@id/explore_the_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/silentMoonWhite" />
@@ -53,11 +53,12 @@
         android:text="@string/explore_the_app"
         style="@style/roboto_reg_16_explore"
 
-        android:layout_marginBottom="27dp"
+        android:layout_marginHorizontal="21dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@id/girl_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeSM"
-        app:layout_constraintBottom_toTopOf="@+id/girl_2"/>
+        app:layout_constraintTop_toBottomOf="@+id/welcomeSM"/>
 
 
     <ImageView

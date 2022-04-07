@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".signing.RemindersActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/what_time"
+            android:text="@string/what_time"
+            style="@style/bold_24"
+
+            android:layout_marginEnd="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/any_time"
+            android:text="@string/any_time"
+            style="@style/silver_16"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@id/what_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/clock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_input_selector"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/any_time">
+
+            <NumberPicker
+                android:id="@+id/numberPicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/numberPicker2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/any_time" />
+
+            <NumberPicker
+                android:id="@+id/numberPicker2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/any_time" />
+
+            <NumberPicker
+                android:id="@+id/numberPicker3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/numberPicker2"
+                app:layout_constraintTop_toBottomOf="@+id/any_time" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/which_day"
+            style="@style/bold_24"
+            android:text="@string/which_day"
+
+            android:layout_marginEnd="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clock"/>
+
+        <TextView
+            android:id="@+id/every_best"
+            style="@style/silver_16"
+            android:text="@string/every_best"
+
+            android:layout_marginEnd="22dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/which_day"/>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginStart="15dp"
+
+            app:chipSpacingHorizontal="-3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/every_best">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip1"
+                android:text="SU"
+                app:chipEndPadding="3dp"
+                style="@style/CustomChipStyle"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip2"
+                android:text="M"
+                style="@style/CustomChipStyle_2"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip3"
+                android:text="T"
+                style="@style/CustomChipStyle_2"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip4"
+                android:text="W"
+                style="@style/CustomChipStyle_2"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip5"
+                android:text="TH"
+                app:chipEndPadding="3dp"
+                style="@style/CustomChipStyle"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip6"
+                android:text="F"
+                style="@style/CustomChipStyle_2"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip7"
+                android:text="S"
+                style="@style/CustomChipStyle_2" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save"
+            android:text="@string/save"
+            style="@style/Button"
+
+            android:layout_marginTop="27dp"
+            android:layout_marginHorizontal="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chip_group" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/no_thanks"
+            android:text="@string/no_thanks"
+
+            style="@style/Button.Ghost"
+
+            app:strokeWidth="0dp"
+            android:layout_marginHorizontal="23dp"
+            app:layout_constraintTop_toBottomOf="@+id/save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
