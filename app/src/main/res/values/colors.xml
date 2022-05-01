@@ -19,5 +19,12 @@
     <color name="welcomeSM">#FFECCC</color>
     <color name="explore_the_app">#EBEAEC</color>
     <color name="silver_light">#F5F5F9</color>
+    <color name="stat_bar_main">#FAF8F5</color>
+    <color name="music_back">#FAF7F2</color>
+    <color name="neue_silver">#A0A3B1</color>
+    <color name="sleep_text_header">#E6E7F2</color>
+    <color name="sleep_back">#03174C</color>
+    <color name="sleep_text_01">#EBEAEC</color>
+    <color name="sleep_color_45">#98A1BD</color>
 
 </resources>

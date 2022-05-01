@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
@@ -33,21 +34,23 @@
         android:id="@+id/girl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:src="@drawable/img_girl"
         android:layout_marginHorizontal="38dp"
+        android:layout_marginTop="36dp"
+        android:onClick="onClickGoHome"
 
+        android:src="@drawable/img_girl"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/silentMoon" />
 
     <TextView
         android:id="@+id/what"
-        android:text="@string/what_we_do"
         style="@style/text_30sp_bold"
-        android:layout_marginTop="38dp"
         android:layout_marginHorizontal="45dp"
+        android:layout_marginTop="38dp"
+        android:onClick="onClickGoMeditate"
 
+        android:text="@string/what_we_do"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/girl" />

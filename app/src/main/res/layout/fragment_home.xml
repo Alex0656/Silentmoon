@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".signing.home.HomeFragment">
+
+        <TextView
+            android:id="@+id/silentMoon3"
+            style="@style/MoonStyle"
+            android:layout_marginTop="24dp"
+            android:text="@string/SilentMoon"
+
+            android:textColor="@color/my_black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/good_morning"
+            style="@style/text_left_28sp_bold"
+            android:layout_marginStart="20dp"
+
+            android:layout_marginTop="44dp"
+            android:text="@string/good_morning"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/silentMoon3" />
+
+        <TextView
+            android:id="@+id/we_wish"
+            style="@style/roboto_reg_20"
+            android:layout_marginStart="20dp"
+
+            android:text="@string/we_wish"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/good_morning" />
+
+        <ImageView
+            android:id="@+id/img_good_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:onClick="onClickGoCourse"
+            android:src="@drawable/img_good_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/we_wish" />
+
+        <ImageView
+            android:id="@+id/img_good_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:onClick="onClickGoCourse"
+            android:src="@drawable/img_good_2"
+            app:layout_constraintStart_toEndOf="@+id/img_good_1"
+            app:layout_constraintTop_toBottomOf="@+id/we_wish" />
+
+        <ImageView
+            android:id="@+id/img_good_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onClickGoCourse"
+            android:src="@drawable/img_good_3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_good_1" />
+
+        <TextView
+            android:id="@+id/recommended"
+            style="@style/bold_24"
+            android:text="@string/recommended"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_good_3" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recommended">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_good_scroll_1"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickGoCourse"
+                    android:src="@drawable/img_good_scroll_1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/img_good_scroll_2"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:onClick="onClickGoCourse"
+                    android:src="@drawable/img_good_scroll_2"
+                    app:layout_constraintStart_toEndOf="@+id/img_good_scroll_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/img_good_scroll_3"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:onClick="onClickGoCourse"
+                    android:src="@drawable/img_good_scroll_1"
+                    app:layout_constraintStart_toEndOf="@+id/img_good_scroll_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -28,6 +28,48 @@
     <string name="every_best">Everyday is best, but we recommend picking at least five.</string>
     <string name="no_thanks">NO THANKS</string>
     <string name="save">SAVE</string>
+    <string name="we_wish">We Wish you have a good day</string>
+    <string name="good_morning">Good Morning, Afsar</string>
+    <string name="recommended">Recommended for you</string>
+    <string name="happy">Happy Morning</string>
+    <string name="course">COURSE</string>
+    <string name="ease_mind">Ease the mind into a restful night’s sleep  with these deep, amblent tones.</string>
+    <string name="favorites">24.234 Favorites</string>
+    <string name="listening">34.234 Listening</string>
+    <string name="pick_navigator">Pick a Navigator</string>
+    <string name="focus_att">Focus Attention</string>
+    <string name="seven_days">7 DAYS OF CALM</string>
+    <string name="meditate">Meditate</string>
+    <string name="we_can">we can learn how to recognize when our minds are doing their normal everyday acrobatics.</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_sleep">Sleep</string>
+    <string name="menu_meditate">Meditate</string>
+    <string name="menu_music">Music</string>
+    <string name="menu_name">Name</string>
+    <string name="sleep_stories">Sleep Stories</string>
+    <string name="soothing_bedtime">Soothing bedtime stories to help you fall into a deep and natural sleep</string>
+    <string name="sleep_music">Sleep Music</string>
+    <string name="night_island">Night Island</string>
+    <string name="min_45">45 MIN * SLEEP MUSIC</string>
+    <string name="else_the_mind">Ease the mind into a restful night’s sleep with these deep, amblent tones.</string>
+    <string name="related">Related</string>
+    <string name="play">PLAY</string>
+    <string name="sleep_music_big">SLEEP MUSIC</string>
+    <string name="welcome_sleep">Welcome to Sleep</string>
+    <string name="explore_the_new">Explore the new king of sleep. It uses sound and vesualization to create perfect conditions for refreshing sleep.</string>
+    <string name="su">SU</string>
+    <string name="m">M</string>
+    <string name="t">T</string>
+    <string name="w">W</string>
+    <string name="th">TH</string>
+    <string name="f">F</string>
+    <string name="s">S</string>
+    <string name="male">MALE VOICE</string>
+    <string name="female">FEMALE VOICE</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

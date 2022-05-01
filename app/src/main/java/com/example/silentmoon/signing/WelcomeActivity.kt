@@ -11,6 +11,7 @@ import android.text.style.ImageSpan
 import android.text.style.StyleSpan
 import android.view.View
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import com.example.silentmoon.R
 
 class WelcomeActivity : AppCompatActivity() {
@@ -18,6 +19,8 @@ class WelcomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome)
 
+        window.decorView.systemUiVisibility=View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+        window.statusBarColor = ContextCompat.getColor(this,R.color.my_purple)
         silentMoonP()
         boldSpan()
     }

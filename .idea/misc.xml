@@ -9,6 +9,7 @@
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/chip_group.xml" value="0.238" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/chip_text_color.xml" value="0.121" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/datepicker_selector.xml" value="0.206" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_button_heart.xml" value="0.1935" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_f.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_facebook.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_google.xml" value="0.206" />
@@ -24,15 +25,52 @@
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_img_welcome_back.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_logo_1.xml" value="0.206" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_menu_home.xml" value="0.1895" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/ic_menu_meditate.xml" value="0.1895" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_girl.xml" value="0.2205" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_good_2.xml" value="0.1895" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_group_6800.xml" value="0.206" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_horizontal_scroll_1.xml" value="0.238" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_horizontal_scroll_2.xml" value="0.238" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_horizontal_scroll_3.xml" value="0.238" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_horizontal_scroll_4.xml" value="0.238" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_horizontal_scroll_5.xml" value="0.238" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_signup_back.xml" value="0.238" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_vertical_scroll_1.xml" value="0.1895" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_vertical_scroll_2.xml" value="0.1895" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/img_vertical_scroll_3.xml" value="0.1895" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/drawable/sun.xml" value="0.1935" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout-v28/activity_sign_up.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_choose_topic.xml" value="0.264" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_course_details.xml" value="0.264" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_manager.xml" value="0.2" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_manager_home.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_manager_meditate_v2.xml" value="0.264" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_manager_sleep.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_manager_sleep_music.xml" value="0.264" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_meditate_v2.xml" value="0.264" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_music.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_music_v2.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_play_option.xml" value="0.25" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_reminders.xml" value="0.264" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
-        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_sign_up.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_sleep_music.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_sleep_music_v2.xml" value="0.25" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/activity_welcome_sleep.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/fragment_female.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/fragment_male.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/fragment_meditate.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/fragment_sleep.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/fragment_sleep_music.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/fragment_sleep_music2.xml" value="0.2359375" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/layout/fragment_welcome_sleep.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/menu/male_female_menu.xml" value="0.25" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.206" />
         <entry key="..\:/Users/wayww/AndroidStudioProjects/Silentmoon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.206" />
       </map>

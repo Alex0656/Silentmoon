@@ -3,4 +3,5 @@
     android:shape="oval">
     <solid android:color="@color/bg_input"/>
     <stroke android:width="2dp" android:color="@color/silver"/>
+
 </shape>

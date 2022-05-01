@@ -1,14 +1,11 @@
 package com.example.silentmoon.signing
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.DatePicker
+import android.view.View
 import android.widget.NumberPicker
-import android.widget.Toast
 import com.example.silentmoon.R
-import java.util.*
-import java.util.Calendar.AM
-import java.util.Calendar.PM
 
 class RemindersActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +18,7 @@ class RemindersActivity : AppCompatActivity() {
 
         val numberPicker2 = findViewById<NumberPicker>(R.id.numberPicker2)
         numberPicker2.minValue = 1
-        numberPicker2.maxValue = 60
+        numberPicker2.maxValue = 59
 
         val numberPicker3 = findViewById<NumberPicker>(R.id.numberPicker3)
 
@@ -29,5 +26,15 @@ class RemindersActivity : AppCompatActivity() {
         numberPicker3.minValue = 0
         numberPicker3.maxValue = (str.size - 1)
         numberPicker3.displayedValues = str
+    }
+
+    fun onClickGoHome(view: View){
+        val intent = Intent(this, ManagerHomeActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onClickGoHome2(view: View){
+        val intent = Intent(this, ManagerHomeActivity::class.java)
+        startActivity(intent)
     }
 }

@@ -2,26 +2,16 @@ package com.example.silentmoon.signing
 
 import android.content.Intent
 import android.graphics.Color
-import android.media.Image
-import android.os.Build
 import android.os.Bundle
 import android.text.*
 import android.text.method.LinkMovementMethod
-import android.text.style.BackgroundColorSpan
 import android.text.style.ClickableSpan
 import android.text.style.ImageSpan
-import android.text.style.UnderlineSpan
 import android.view.View
-import android.view.View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-import android.view.View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-import android.view.WindowManager
-import android.widget.Space
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.WindowCompat
+import androidx.core.content.ContextCompat
 import com.example.silentmoon.R
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,14 +19,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         //WindowCompat.setDecorFitsSystemWindows(window, false)
-
-
+        window.decorView.systemUiVisibility=View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+        window.statusBarColor = ContextCompat.getColor(this,R.color.stat_bar_main)
         silentMoonP()
         clickSpan()
     }
-
 
     private  fun silentMoonP(){
         val silentMoon: TextView = findViewById(R.id.silentMoon)
@@ -50,6 +38,16 @@ class MainActivity : AppCompatActivity() {
 
     fun onClickGoSignUp(view: View){
         val intent = Intent(this, SignUpActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onClickGoHome(view: View){
+        val intent = Intent(this, ManagerHomeActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onClickGoMeditate(view: View){
+        val intent = Intent(this, ManagerMeditateV2Activity::class.java)
         startActivity(intent)
     }
 
